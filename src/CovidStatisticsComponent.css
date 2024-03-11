@@ -1,0 +1,61 @@
+.statistics-head{
+    border: 1px solid #DF465B;
+    background-color: #DF465B;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 2px 0;
+    padding: 10px;
+}
+.list-group-item{
+    border:none;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.list-group-item svg{
+    font-size: 1.3rem;
+}
+.confirm svg{
+    color:#FF7403
+}
+.deaths svg{
+    color:#DC2E2E
+}
+.active-person svg{
+    color:#03A290
+}
+.recovered svg{
+    color:#B0E271;
+}
+.fw-400{
+    font-weight: 400 !important ;
+}
+.list-group-item span{
+    font-weight: 700;
+}
+.home-icon{
+    font-size:1.5rem;
+    cursor: pointer;
+}
+.home-icon:hover{
+    color:#B0E271;
+}
+
+@media only screen and (max-width: 600px) {
+    .statistics-head{
+        padding: 0;
+    }
+    .statistics-head h2, .home-icon{
+        font-size: 1rem;
+    }
+    .card-section{
+        flex-direction: column;
+    }
+    .card-section span{
+        font-size: .9rem;
+    }
+    .list-group-item .card .card-body{
+        font-size: .7rem;
+    }
+}

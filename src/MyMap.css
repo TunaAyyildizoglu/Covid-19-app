@@ -1,0 +1,9 @@
+.leaflet-container {
+  border-radius: 10px;
+  height: 600px !important;
+}
+.leaflet-interactive{
+  stroke: #C1ACBC !important;
+  stroke-width: 1 !important;
+  fill: #F2EFE9;
+}
